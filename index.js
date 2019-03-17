@@ -10,7 +10,7 @@
 let i = 0;
 (async function () {
     // initializes touch and scroll events
-    const response = await axios.get('http://okonomy.spicts.net/flick_images');
+    const response = await axios.get('https://okonomy.spicts.net/flick_images');
     console.log(response);
     console.log(response.data.result);
     var results = response.data.result;
